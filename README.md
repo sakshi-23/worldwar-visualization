@@ -46,4 +46,4 @@ articles, just to see what it contains. For each, I have used a 5 line summary.
 4. https://d3js.org/
 5. https://jquery.com/
 6. https://www.mongodb.org/
-7. python - nltk, sklearn, numpy
+7. Python - nltk, sklearn, numpy
