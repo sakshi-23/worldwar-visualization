@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+
+	<script src="http://d3js.org/d3.v3.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="d3.layout.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css"> 
+</head>
+<body>
+<h2>Media's coverage of Germany during World War 1 period...</h2>
+<div id="clusterName">&nbsp</div>
+<div id="sentiment"><input id="sentimentCheckbox" type="checkbox">Color by sentiment</div>
+<div id="clear"><span>Clear Selections</span></div>
+
+<div id="clusters"></div>
+<div>Topics</div>
+<div id="wordCloud3" class="wordCloud" ></div>
+<div id="wordCloud5"  class="wordCloud" ></div>
+<div id="wordCloud8"  class="wordCloud" ></div>
+<div id="wordCloud10"  class="wordCloud" ></div>
+<div id="information">
+<h6>World War 1 Highlights (ref to USA)</h6>
+<ul>
+<li><strong>February 4, 1915 </strong> - Germany declares the waters surrounding British Isles to be a war zone in which ships can be sunk without warning.</li>
+<li><strong>March 1915 </strong> - The British Navy imposes a total sea blockade on Germany, prohibiting all shipping imports including food.</li>
+<li><strong>May 1, 1915 </strong> - German U-Boats sink their first American merchant ship, the tanker Gulflight, in the Mediterranean Sea near Sicily.</li>
+<li><strong>May 7, 1915 </strong>- A German U-Boat torpedoes the British passenger liner Lusitania off the Irish coast. It sinks in 18 minutes, drowning 1,201 persons, including 128 Americans. President Woodrow Wilson subsequently sends four diplomatic protests to Germany.</li>
+<li><strong>April 18, 1916 </strong> -  President Woodrow Wilson threatens to sever diplomatic ties between the United States and Germany following the sinking of the passenger ferry Sussex by a U-Boat in the English Channel. </li>
+<li><strong>February 3, 1917 </strong> - The United States severs diplomatic ties with Germany after a U-Boat sinks the American grain ship Housatonic. Seven more American ships are sunk in February and March as the Germans sink 500 ships in just sixty days.</li>
+<li><strong>April 6, 1917</strong> - The United States of America declares war on Germany.</li>
+<li><strong>January 1918 </strong> - President Woodrow Wilson outlines an elaborate peace plan to the U.S. </li>
+<li><strong>October 4, 1918 </strong>- President Woodrow Wilson receives a request from the German government, sent via the Swiss, asking for armistice discussions on the basis of his Fourteen Points. </li>
+</ul>
+</div>
+<div id="timeseries" ></div>
+
+<div><i>Project by Sakshi Pratap</i></div>
+
+<script src="app.js"></script>
+</body>

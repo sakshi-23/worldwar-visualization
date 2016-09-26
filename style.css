@@ -1,0 +1,188 @@
+.dot{
+	fill: #B5A199;
+    opacity: 0.6;
+    stroke: #795548;
+}
+
+.highlight{
+	fill-opacity:1!important;
+	opacity:1;
+	stroke: white;
+    stroke-width: 3px;
+	
+}
+
+.leaf.col0 circle{
+	fill:#d7191c!important
+}
+
+.leaf.col1 circle{
+	fill:#ffffbf!important
+}
+
+.leaf.col2 circle{
+	fill:#1a9641!important
+}
+
+
+#sentiment{
+    background: #4C4C4C;
+    padding: 3px;
+    font-size: 10px;
+    right: 100px;
+    top: 5px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.highlightByDate circle{
+	
+    opacity: 1;
+    stroke: #000000;
+    fill-opacity: 1!important;
+    stroke-opacity: 1;
+}
+
+.fill-opacity-less.leaf circle{
+	 fill-opacity: 0.12;
+}
+
+.highlightonClick{
+	opacity: 1;
+    stroke: white;
+    stroke-width: 3px;
+    fill-opacity: 1!important;
+    stroke-opacity: 1;
+	
+}
+
+.highlightRectDate
+{
+	stroke: black;
+	stroke-width: 2px;
+	fill: #252222!important;
+}
+.highlight-rects{
+	
+	stroke: white;
+	stroke-width: 2px;
+	
+}
+
+
+.tick text{
+	font-size:10px
+}
+
+body{
+	background:#3E3A3A;
+	color:white
+}
+
+#clusterName{
+	text-transform:capitalize;
+	font-size:14px;
+	position:absolute;
+}
+
+.cluster-node,.clusters{
+	fill-opacity: 0.0001;
+	stroke:none
+}
+circle {
+  	fill: gray;
+    fill-opacity: .25;
+    stroke: rgb(46, 46, 46);
+    stroke-width: 1px;
+    stroke-opacity: 0.9;
+}
+
+.leaf circle {
+  fill: #ff7f0e;
+  fill-opacity: .5;
+}
+
+text {
+    font: 12px sans-serif;
+    fill: #E0DEDE;
+    stroke: white;
+    stroke-width: 1px;
+    stroke-opacity: 0.4;
+}
+
+
+#clusters{
+	float:left;
+	 cursor:pointer
+}
+#timeseries{
+	clear:both;
+	cursor:pointer;
+	
+}
+#clusters svg {
+	margin-top: -100px;
+	margin-right: 75px;
+}
+#timeseries svg{
+	margin-top: -140px;
+}
+h2{
+	margin:0;
+}
+.wordCloud{
+	float: left;
+    margin-top: 10px;
+    border: 1px solid #4C4C4C;
+    width: 100px;
+    clear:right;
+    text-align:center;
+    cursor:pointer
+}
+.highlightwords{
+	border: 3px solid #888888
+}
+.wordCloud text{
+	stroke:none
+}
+ul{
+	padding:0
+}
+
+li{
+	padding: 10px 0;
+	
+}
+
+#date{
+	font-style: italic;
+}
+
+#information strong{
+	color:#FEBA77
+}
+
+h6{
+	margin:0;
+	font-size: 14px;
+}
+#information{
+	max-width: 390px;
+    float: left;
+    height: 350px;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 11px;
+}
+
+#clear{
+    background: gray;
+    padding: 5px;
+    width: 68px;
+    font-size: 10px;
+    border: 1px solid #0A3E0A;
+    right: 10px;
+    top: 5px;
+    cursor: pointer;
+    position: absolute;
+}
