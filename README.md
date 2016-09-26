@@ -1,5 +1,7 @@
 # Exploring media’s coverage of Germany during the World War 1 period
 
+http://cdn.rawgit.com/sakshi-23/worldwar-visualization/master/index.html
+
 ## What you are trying to do?
 The idea behind my analysis is to see how various events during the World War 1 were
 being covered in USA. USA’s initial neutrality changed towards April 1917. So I wanted
